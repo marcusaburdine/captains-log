@@ -4,14 +4,14 @@ const DefaultLayout = require("./layouts/Default")
 
 class Index extends React.Component {
     render() {
-        const { log } = this.props
+        const { logs } = this.props
         return (
             <DefaultLayout title="All Logs">
                 <a href="/logs/new">Create New Log</a>
 
                 <ul>
                     {
-                        log.map((log, i) => {
+                        logs.map((log, i) => {
                             let date = new Date(log.createdAt).toLocaleString()
 
                             return (
