@@ -24,7 +24,7 @@ class New extends React.Component {
                             <td><input type="checkbox" name="shipIsBroken" id="shipIsBroken" /></td>
                         </tr>
                         <tr>
-                            <td><input type="submit" value="Send Log" /></td>
+                            <td><input type="submit" value="Submit Log" /></td>
                         </tr>
                     </table>
 

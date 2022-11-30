@@ -7,7 +7,7 @@ route.get("/", (req, res) => {
         if (!error) {
             res.status(200).render("Index", {
                 logs: allLogs
-            });
+            })
         } else {
             res.status(400).send(error)
         }
